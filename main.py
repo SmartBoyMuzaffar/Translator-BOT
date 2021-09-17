@@ -1,4 +1,4 @@
-rom googletrans import Translator
+from googletrans import Translator
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
 
