@@ -8,7 +8,7 @@ m = Translator()
 def start(update, context):
         """Send a message when the command /start is issued."""
         user = update.message.from_user
-        update.message.reply_text('Salom {} \n Hush kelibsiz!!!'.format(user['username'>
+        update.message.reply_text('Salom {} \n Hush kelibsiz!!!'.format(user['username'])
 
 
 
