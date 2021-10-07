@@ -24,7 +24,7 @@ Tarjimasi: \n </code>
 
 def main():
     """Start the bot."""
-    updater = Updater("1951916813:AAGBgKKsJZfdbXfCBQazEBcuF2xaNZmWnmY")
+    updater = Updater("1957229466:AAFfiDn53Kx_-bmWKIjVZUvAIQClm9yo8hU")
     M = updater.dispatcher
     M.add_handler(CommandHandler("start", start))
     M.add_handler(MessageHandler(Filters.text & ~Filters.command, translate))
