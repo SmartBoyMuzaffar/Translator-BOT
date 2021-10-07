@@ -14,9 +14,9 @@ def start(update, context):
 
 def translate(update, context):
         """Echo the user message."""
-        update.message.reply_html("""<code>
-Tarjimasi: \n </code>
-""" + m.translate(f"<code> {update.message.text} </code>", dest='uz').text)
+        update.message.reply_text("""
+Tarjimasi: \n
+""" + m.translate(f"{update.message.text}", dest='uz').text)
 
 
 
