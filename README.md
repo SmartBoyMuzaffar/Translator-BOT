@@ -1,1 +1,2 @@
-# Telegram Translator Bot Code !!!
+# Smart Boy
+Telegram Translator Bot Code !!!
