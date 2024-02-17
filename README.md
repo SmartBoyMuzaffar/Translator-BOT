@@ -1,2 +1,1 @@
-# TranslateBot
-My trans bot
+# Telegram Translator Bot Code !!!
